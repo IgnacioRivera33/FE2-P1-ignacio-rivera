@@ -75,6 +75,67 @@ main {
     margin-bottom: 10px;
 }
 
+.features .feature-card {
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(31, 41, 55, 0.08);
+    padding: 28px;
+    margin-top: 40px;
+}
+
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    padding: 18px 20px;
+    background-color: #eff6ff;
+    color: #1f2937;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.accordion-button:hover {
+    background-color: #dbeafe;
+}
+
+.accordion-button::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    transition: transform 0.2s ease;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: '-';
+}
+
+.accordion-panel {
+    margin-top: 18px;
+    padding-left: 8px;
+}
+
+.accordion-panel h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.accordion-panel ul {
+    list-style: disc inside;
+    margin: 16px 0 0;
+    padding: 0;
+}
+
+.accordion-panel li {
+    margin-bottom: 10px;
+}
+
 .site-footer {
     text-align: center;
     padding: 20px 0;

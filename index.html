@@ -18,12 +18,11 @@
         <section class="intro container">
             <h2>Presentamos el Notebook NovaTech</h2>
             <p>NovaTech es un notebook tecnológico diseñado para profesionales y creadores que necesitan rendimiento confiable, diseño ligero y una experiencia visual excepcional.</p>
-            <p>Esta primera versión de la página contiene el nombre del producto, una descripción con estructura básica y una sección destacada para presentar sus características principales.</p>
         </section>
 
         <section class="highlight container">
             <div class="highlight-card">
-                <h2>Sección destacada: presentación del producto</h2>
+                <h2>Nuevo Notebook NovaTech!</h2>
                 <p>Con pantalla de alta definición, batería de larga duración y un teclado ergonómico, NovaTech está preparado para acompañarte en cada proyecto.</p>
                 <ul>
                     <li>Procesador rápido para multitarea.</li>
@@ -32,7 +31,36 @@
                 </ul>
             </div>
         </section>
+
+        <section class="features container">
+            <div class="feature-card">
+                <button class="accordion-button" aria-expanded="false" aria-controls="feature-panel">
+                    Ver características del notebook
+                </button>
+                <div id="feature-panel" class="accordion-panel" hidden>
+                    <h3>Características principales</h3>
+                    <ul>
+                        <li>Procesador Intel Core i7 de 13ª generación.</li>
+                        <li>Pantalla IPS de 15.6" con resolución Full HD y brillo de 300 nits.</li>
+                        <li>16 GB de RAM DDR5 y 512 GB SSD NVMe para arranque rápido.</li>
+                        <li>Batería con hasta 12 horas de autonomía y carga rápida.</li>
+                        <li>Wi-Fi 6, Bluetooth 5.3 y múltiples puertos USB-C y HDMI.</li>
+                        <li>Teclado retroiluminado y construcción ultraligera de aleación.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+    <script>
+        const accordionButton = document.querySelector('.accordion-button');
+        const panel = document.getElementById('feature-panel');
+
+        accordionButton.addEventListener('click', () => {
+            const isOpen = accordionButton.getAttribute('aria-expanded') === 'true';
+            accordionButton.setAttribute('aria-expanded', String(!isOpen));
+            panel.hidden = isOpen;
+        });
+    </script>
 
     <footer class="site-footer">
         <div class="container">
