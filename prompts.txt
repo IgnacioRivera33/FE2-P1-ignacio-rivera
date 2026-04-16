@@ -1,0 +1,3 @@
+PROMPT 1:
+Necesito la base para la pagina web de una empresa que busca promocionar un producto tecnologico (como un notebook), esta primera version de la pagina web debe incluir el nombre del producto, una breve descripcion que tenga una estructura basica y una seccion destacada como la presentacion del producto.
+RESPUESTA 1:
