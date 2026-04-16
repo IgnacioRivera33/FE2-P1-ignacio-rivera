@@ -1,3 +1,69 @@
-PROMPT 1:
+PROMPT ETAPA 1:
 Necesito la base para la pagina web de una empresa que busca promocionar un producto tecnologico (como un notebook), esta primera version de la pagina web debe incluir el nombre del producto, una breve descripcion que tenga una estructura basica y una seccion destacada como la presentacion del producto.
-RESPUESTA 1:
+PROPOSITO: El proposito de este prompt es generar la base de la pagina web.
+EVALUACION: Surgieron errores que se corregiran, la base se creo con exito
+PROMPT ETAPA 2:
+Me gustaria que el sitio tuviera funcionalidad, como una seccion desplegable que permita ver las caracteristicas del notebook.
+RESPUESTA: Revisando los archivos existentes y agregando la sección desplegable.
+Agregando la sección desplegable y mejorando el estilo del acordeón.
+
+✅ Ya agregué funcionalidad interactiva al sitio.
+
+Cambios realizados:
+
+Añadí una sección desplegable de características del notebook en index.html.
+Incluí un botón que abre y cierra el contenido con accesibilidad aria-expanded.
+Mejoré los estilos en Style.css para que el acordeón se vea integrado y moderno.
+Ahora el usuario puede ver y ocultar las características del notebook con un clic.
+
+PROPOSITO: El proposito de este prompt era corregir algunos errores y añadir funcionalidad a la pagina web.
+EVALUACION: Los cambios fueron corregidos y ademas la funcionalidad si se agrego a la pagina web.
+
+PROMPT ETAPA 3:
+El sitio es funcional pero me gustaria que tuviera una mejor presentacion, como por ejemplo: añadir estilos mas trabajados, mejorar el estilo visual, mejorar la distribuicion del contenido y tratar de lograr una apariencia moderna
+RESPUESTA: Revisando la estructura actual para mejorar la presentación y el diseño visual.
+
+Aplicando nuevo diseño moderno y mejor distribución del contenido.
+
+Verificando el HTML final y corrigiendo el enlace secundario para mantener consistencia.
+
+Ajustando el enlace secundario para que apunte a una sección válida y conservar estado visual pulido.
+
+✅ Mejora de presentación aplicada
+Actualicé el sitio con un diseño más moderno y mejor distribución:
+
+index.html
+
+Añadí un header más limpio con marca y CTA.
+Reorganicé el contenido en secciones hero, stats, highlight y features.
+Mejoré la jerarquía visual y la estructura de la página.
+Style.css
+
+Agregué tipografía moderna y fondo con degradado sutil.
+Implementé tarjetas, botones redondeados y sombras suaves.
+Organicé la presentación en grid para mejor lectura y adaptabilidad.
+Ahora el sitio se ve más profesional, con una apariencia contemporánea y una mejor distribución del contenido.
+
+PROPOSITO: El proposito de este prompt es darle una mejora visual a la pagina web
+EVALUACION: solo uno de los botones quedo sin funcionamiento, las demas funcionalidades de la pagina funcionan con exito, se corregira.
+EVALUACION 2: El enlace secundario se corrigio automaticamente.
+
+PROMPT ETAPA 4: Ahora me gustaria que la pagina web tuviera una adaptacion a dispositivos moviles
+RESPUESTA: Revisando los estilos actuales para asegurar una adaptación sólida en móviles.
+
+Ajustando los puntos móviles clave para que la página se vea mejor en pantallas pequeñas.
+
+Edited
+Style.css+70-1
+✅ Adaptación móvil mejorada
+
+Ajustes aplicados en Style.css:
+
+hero, stats-grid y contenedores principales ahora se adaptan mejor en pantallas pequeñas.
+Botones pasan a ancho completo en móvil para una interacción más cómoda.
+Reduje paddings y tipografía en tablets/móviles para mejorar la lectura.
+Se mejoró el header y footer para que queden en columna en pantallas angostas.
+El sitio ahora ofrece una experiencia móvil mucho más pulida y legible.
+
+PROPOSITO: El proposito de este prompt es otorgar accesibilidad a usuarios de dispositivos moviles y adaptar la pagina a estos.
+EVALUACION: La adaptacion a dispositivos moviles resulto con exito.

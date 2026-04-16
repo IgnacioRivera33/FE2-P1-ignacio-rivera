@@ -396,15 +396,84 @@ footer {
 }
 
 @media (max-width: 640px) {
+    .container {
+        padding: 16px 0;
+    }
+
+    .site-header {
+        padding: 24px 0;
+    }
+
+    .site-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero {
+        gap: 24px;
+    }
+
+    .hero-copy {
+        max-width: 100%;
+    }
+
     .hero-copy h2 {
         font-size: 2rem;
+    }
+
+    .hero-copy p {
+        font-size: 1rem;
     }
 
     .hero-actions {
         flex-direction: column;
     }
 
-    .product-card {
+    .primary-button,
+    .secondary-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .product-card,
+    .feature-card,
+    .highlight-card {
         padding: 26px;
+    }
+
+    .stat-card strong {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-copy h2 {
+        font-size: 1.7rem;
+    }
+
+    .hero-copy p {
+        font-size: 0.98rem;
+    }
+
+    .product-card,
+    .feature-card,
+    .highlight-card {
+        padding: 22px;
+    }
+
+    .accordion-panel {
+        margin-top: 18px;
+        padding-left: 0;
+    }
+
+    .stats-grid {
+        gap: 16px;
+    }
+
+    .stat-card {
+        padding: 22px;
+    }
+
+    .stat-card strong {
+        font-size: 1.6rem;
     }
 }
