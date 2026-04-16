@@ -8,22 +8,65 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="container">
-            <h1>NovaTech</h1>
-            <p class="tagline">Potencia, estilo y movilidad para tu trabajo y creatividad.</p>
+        <div class="container header-inner">
+            <div class="brand-group">
+                <div class="logo-mark">N</div>
+                <div>
+                    <h1>NovaTech</h1>
+                    <p class="tagline">Potencia, estilo y movilidad para tu trabajo y creatividad.</p>
+                </div>
+            </div>
+            <a href="#features" class="primary-button">Ver características</a>
         </div>
     </header>
 
     <main>
-        <section class="intro container">
-            <h2>Presentamos el Notebook NovaTech</h2>
-            <p>NovaTech es un notebook tecnológico diseñado para profesionales y creadores que necesitan rendimiento confiable, diseño ligero y una experiencia visual excepcional.</p>
+        <section class="hero container">
+            <div class="hero-copy">
+                <span class="eyebrow">Nuevo lanzamiento</span>
+                <h2>El notebook que combina rendimiento premium con una estética ligera.</h2>
+                <p>NovaTech ofrece potencia confiable, pantalla brillante y autonomía extendida para que tu productividad y creatividad no se detengan.</p>
+                <div class="hero-actions">
+                    <a class="primary-button" href="#features">Descubrir características</a>
+                    <a class="secondary-button" href="#features">Solicitar información</a>
+                </div>
+            </div>
+            <div class="hero-panel">
+                <div class="product-card">
+                    <p class="product-label">Modelo destacado</p>
+                    <h3>NovaTech 15 Pro</h3>
+                    <ul>
+                        <li>Intel Core i7 de 13ª generación</li>
+                        <li>15.6" Full HD IPS</li>
+                        <li>16 GB DDR5 + 512 GB SSD</li>
+                        <li>Wi-Fi 6 / Bluetooth 5.3</li>
+                    </ul>
+                    <p class="product-note">Diseñado para creadores, profesionales y estudiantes que buscan estilo sin sacrificar rendimiento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <strong>12 horas</strong>
+                    <span>de batería real</span>
+                </div>
+                <div class="stat-card">
+                    <strong>1.4 kg</strong>
+                    <span>ultraligero y portable</span>
+                </div>
+                <div class="stat-card">
+                    <strong>7 ms</strong>
+                    <span>respuesta de pantalla</span>
+                </div>
+            </div>
         </section>
 
         <section class="highlight container">
             <div class="highlight-card">
-                <h2>Nuevo Notebook NovaTech!</h2>
-                <p>Con pantalla de alta definición, batería de larga duración y un teclado ergonómico, NovaTech está preparado para acompañarte en cada proyecto.</p>
+                <h2>Diseñado para trabajar y crear sin límites</h2>
+                <p>NovaTech combina un diseño sofisticado con materiales resistentes, una pantalla envolvente y un teclado cómodo para jornadas de trabajo extensas.</p>
                 <ul>
                     <li>Procesador rápido para multitarea.</li>
                     <li>Diseño compacto y portátil.</li>
@@ -32,7 +75,7 @@
             </div>
         </section>
 
-        <section class="features container">
+        <section class="features container" id="features">
             <div class="feature-card">
                 <button class="accordion-button" aria-expanded="false" aria-controls="feature-panel">
                     Ver características del notebook
@@ -51,6 +94,7 @@
             </div>
         </section>
     </main>
+
     <script>
         const accordionButton = document.querySelector('.accordion-button');
         const panel = document.getElementById('feature-panel');
@@ -63,8 +107,9 @@
     </script>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="container footer-inner">
             <p>© 2026 NovaTech. Todos los derechos reservados.</p>
+            <small>Una experiencia moderna para tus tareas diarias.</small>
         </div>
     </footer>
 </body>
